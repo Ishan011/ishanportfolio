@@ -20,7 +20,6 @@ body {
 	box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
 }
 
-
 .folio-link {
 	margin-top: 6px;
 	transition: 0.3s ease;
@@ -115,7 +114,7 @@ header {
 
 .btn-resume {
 	background-color:#fff;
-	border: 2px solid  #4B7681;
+	border: 3px solid  #71A1AC;
 	color:  #4B7681;
 	text-decoration: none;
 }
@@ -126,7 +125,7 @@ header {
 }
 
 .btn-resume:hover {
-	border: 2px solid #3E616A;
+	border: 3px solid #3E616A;
 	color: #3E616A;
 	transition: 0.3s ease;
 }
@@ -292,6 +291,15 @@ header {
 .foot-btn:hover {
 	border: 2px solid #555;
 	background-color: #444;
+}
+
+.intro-text {
+	background-color: #FFFAE0;
+	padding: 20px 0;
+}
+
+#taptrack-port {
+	margin-top: 7.5rem;
 }
 
 @media screen and (max-width: 480px) {
