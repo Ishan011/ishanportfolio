@@ -118,7 +118,7 @@ body {
 	background-color: #444;
 }
 
-#taptrack-port, #audio-port {
+#taptrack-port, #audio-port, #maya-port, #photo-port, #bartermates-port {
 	margin-top: 3.25rem;
 }
 
@@ -153,6 +153,23 @@ body {
 	background-color: #F2F0ED;
 }
 
+
+.maya {
+	background-color: #EBF3F4;
+}
+
+.bartermates {
+	background-color: #F2F0ED;
+}
+
+.photo {
+	background-color: #EFEDF3;
+}
+
+.video {
+	background-color: #EBF5F1;
+}
+
 .introduction, .process, .reflection {
 	margin-bottom: 2.5rem;
 }
@@ -161,8 +178,12 @@ body {
 	margin-top: 2.5rem;
 }
 
-audio {
+audio, video {
 	width: 100%;
+}
+
+.about, .composition, .tech-details {
+	margin-top: 2.5rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -183,11 +204,25 @@ audio {
   	display: none;
   }
 
-  #audio-port, #taptrack-port {
+  #audio-port, #taptrack-port , #maya-port, #photo-port, #bartermates-port {
   	margin-top: 1.25rem;
   }
 
   .block {
   	padding: 1.5rem;
   }
+
+  .original-pic-div {
+  	margin-bottom: 1rem;
+  }
+
+  .about, .composition, .tech-details {
+	margin-top: 1.25rem;
+	}
+
+	.edit-pic-div {
+		margin-top: 1.25rem;
+		margin-bottom: 1.25rem;
+	}
+
 }
