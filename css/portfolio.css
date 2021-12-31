@@ -118,7 +118,7 @@ body {
 	background-color: #444;
 }
 
-#taptrack-port, #audio-port, #maya-port, #photo-port, #bartermates-port {
+#taptrack-port, #audio-port, #maya-port, #photo-port, #bartermates-port, #video-port {
 	margin-top: 3.25rem;
 }
 
@@ -204,7 +204,7 @@ audio, video {
   	display: none;
   }
 
-  #audio-port, #taptrack-port , #maya-port, #photo-port, #bartermates-port {
+  #audio-port, #taptrack-port , #maya-port, #photo-port, #bartermates-port, #video-port {
   	margin-top: 1.25rem;
   }
 
