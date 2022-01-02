@@ -232,21 +232,25 @@ header {
 	width: 240px;
 	font-size: 24px;
 	height: 160px;
+	padding: 28px;
 	font-weight: 500;
 	border-radius: 5px;
 	border: 1px solid #555;
 	margin: 0 20px;
 	transition: 0.3s ease-in;
-}
-
-.foot-btn>a {
-	text-decoration: none;
 	color: hsla(0, 0%, 100%, 0.42);
+	text-decoration: none;
 }
 
 .foot-btn:hover {
 	border: 2px solid #555;
 	background-color: #444;
+	color: hsla(0, 0%, 100%, 0.42);
+}
+
+.linkedin-icon, 
+.gmail-icon {
+	margin-bottom: 20px;
 }
 
 @media screen and (max-width: 480px) {
