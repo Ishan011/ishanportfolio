@@ -8,7 +8,7 @@
 
 ## About
 
-* This website is a portfolio which showcases my work for the first semester. I have uploaded a sample of work, including reflective commentary on each piece of work, how I  accomplished it and the learning outocmes that I had while working on it.
+This website is a portfolio which showcases my work that I have done for the first semester. It aims to briefly walk you through the process that I have followed for my projects and the learning outocmes that I have had while working on them.
 
 ## Technologies Used
 
@@ -18,6 +18,6 @@
 
 ## Hosting
 
-This website is hosted using Github Pages.
+This website is hosted using Github Pages. Click below to visit the site:
 
 https://ishan011.github.io/ishanportfolio/
