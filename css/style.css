@@ -8,16 +8,12 @@ body {
 }
 
 .fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 10;
-    background-color: #F3F7F8;
-}
-
-.navbar-shadow {
-	box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	background-color: #F3F7F8;
 }
 
 .folio-link {
@@ -61,11 +57,11 @@ body {
 
 header {
 	padding: 4.5rem 0 0 0;
-	background-image: linear-gradient(180deg,hsla(191,28%,96%,0.7),hsla(191,28%,96%,0.7)),url("../assets/asset1.png");
-	background-position: 0 0,50% 0;
-    background-size: auto,100px;
-    background-repeat: repeat,repeat;
-    background-attachment: scroll,scroll;
+	background-image: linear-gradient(180deg, hsla(191, 28%, 96%, 0.7), hsla(191, 28%, 96%, 0.7)), url("../assets/asset1.png");
+	background-position: 0 0, 50% 0;
+	background-size: auto, 100px;
+	background-repeat: repeat, repeat;
+	background-attachment: scroll, scroll;
 }
 
 .main-text {
@@ -95,7 +91,8 @@ header {
 	color: #71A1AC;
 }
 
-.btn-contact, .btn-resume {
+.btn-contact,
+.btn-resume {
 	font-weight: 500;
 	letter-spacing: 1.2px;
 	border-radius: 5px;
@@ -107,15 +104,15 @@ header {
 .btn-contact {
 	background-color: #4B7681;
 	color: #fff;
-	border: 2px solid  #4B7681;
+	border: 2px solid #4B7681;
 	margin-right: 20px;
 	text-decoration: none;
 }
 
 .btn-resume {
-	background-color:#fff;
-	border: 3px solid  #71A1AC;
-	color:  #4B7681;
+	background-color: #fff;
+	border: 3px solid #71A1AC;
+	color: #4B7681;
 	text-decoration: none;
 }
 
@@ -212,47 +209,6 @@ header {
 	background-color: #EBF5F1;
 }
 
-.audio-card-title {
-	color: #94846B;
-}
-
-.audio-card-text {
-	color: #94846B;
-}
-
-.maya-card-title {
-	color: #417176;
-}
-
-.maya-card-text {
-	color: #5A9CA5;
-}
-
-
-.photo-card-title {
-	color: #56496E;
-}
-
-.photo-card-text {
-	color: #776699;
-}
-
-.bartermates-card-title {
-	color: #6B5F4D;
-}
-
-.bartermates-card-text {
-	color: #94846B;
-}
-
-.video-card-title {
-	color: #3D7A62;
-}
-
-.video-card-text {
-	color: #55AA88;
-}
-
 #footer {
 	background-color: #444;
 	padding: 2.5rem 0;
@@ -293,42 +249,28 @@ header {
 	background-color: #444;
 }
 
-.intro-text {
-	background-color: #FFFAE0;
-	padding: 20px 0;
-}
-
-#taptrack-port {
-	margin-top: 7.5rem;
-}
-
 @media screen and (max-width: 480px) {
-  .main-text {
-  	padding: 2.5rem 0;
-  	text-align: center;
-  }
-
-  #portfolio {
-  	margin: 0 1rem;
-  }
-
-  .portfolio-container {
-  	padding-bottom: 2rem;
-  }
-
-  .card {
-  	margin: 1.25rem 0;
-  }
-
-  .card-row-2, .card-row-3 {
-  	padding: 0;
-  }
-
-  .card-body {
-  	padding: 1.5rem;
-  }
-
-  .foot-btn {
-  	margin-bottom: 1.5rem;
-  }
+	.main-text {
+		padding: 2.5rem 0;
+		text-align: center;
+	}
+	#portfolio {
+		margin: 0 1rem;
+	}
+	.portfolio-container {
+		padding-bottom: 2rem;
+	}
+	.card {
+		margin: 1.25rem 0;
+	}
+	.card-row-2,
+	.card-row-3 {
+		padding: 0;
+	}
+	.card-body {
+		padding: 1.5rem;
+	}
+	.foot-btn {
+		margin-bottom: 1.5rem;
+	}
 }

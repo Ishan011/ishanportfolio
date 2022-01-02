@@ -8,10 +8,9 @@ body {
 }
 
 .navbar {
-    background-color: #FFF;
-    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+	background-color: #FFF;
+	box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
 }
-
 
 .folio-link {
 	margin-top: 6px;
@@ -32,7 +31,8 @@ body {
 	font-size: 18px;
 }
 
-.btn-cta, .back-btn {
+.btn-cta,
+.back-btn {
 	font-size: 18px;
 	background-color: #4B7681;
 	color: #fff;
@@ -50,7 +50,8 @@ body {
 	padding: 0.75rem 1rem;
 }
 
-.btn-cta:hover, .back-btn:hover {
+.btn-cta:hover,
+.back-btn:hover {
 	background-color: #3E616A;
 	color: #fff;
 }
@@ -118,7 +119,12 @@ body {
 	background-color: #444;
 }
 
-#taptrack-port, #audio-port, #maya-port, #photo-port, #bartermates-port, #video-port {
+#taptrack-port,
+#audio-port,
+#maya-port,
+#photo-port,
+#bartermates-port,
+#video-port {
 	margin-top: 3.25rem;
 }
 
@@ -135,7 +141,7 @@ body {
 .list-group-item+.list-group-item.active {
 	background-color: #fff;
 	color: #212529;
-	border: 1px solid rgba(0,0,0,.125);
+	border: 1px solid rgba(0, 0, 0, .125);
 }
 
 .block {
@@ -144,7 +150,6 @@ body {
 	padding: 2.5rem;
 }
 
-
 .taptrack {
 	background-color: #FFFAE0;
 }
@@ -152,7 +157,6 @@ body {
 .audio {
 	background-color: #F2F0ED;
 }
-
 
 .maya {
 	background-color: #EBF3F4;
@@ -170,7 +174,9 @@ body {
 	background-color: #EBF5F1;
 }
 
-.introduction, .process, .reflection {
+.introduction,
+.process,
+.reflection {
 	margin-bottom: 2.5rem;
 }
 
@@ -178,51 +184,51 @@ body {
 	margin-top: 2.5rem;
 }
 
-audio, video {
+audio,
+video {
 	width: 100%;
 }
 
-.about, .composition, .tech-details {
+.about,
+.composition,
+.tech-details {
 	margin-top: 2.5rem;
 }
 
 @media screen and (max-width: 480px) {
-
-  .card {
-  	margin: 1.25rem 0;
-  }
-
-  .card-body {
-  	padding: 1.5rem;
-  }
-
-  .foot-btn {
-  	margin-bottom: 1.5rem;
-  }
-
-  .list-group {
-  	display: none;
-  }
-
-  #audio-port, #taptrack-port , #maya-port, #photo-port, #bartermates-port, #video-port {
-  	margin-top: 1.25rem;
-  }
-
-  .block {
-  	padding: 1.5rem;
-  }
-
-  .original-pic-div {
-  	margin-bottom: 1rem;
-  }
-
-  .about, .composition, .tech-details {
-	margin-top: 1.25rem;
+	.card {
+		margin: 1.25rem 0;
 	}
-
+	.card-body {
+		padding: 1.5rem;
+	}
+	.foot-btn {
+		margin-bottom: 1.5rem;
+	}
+	.list-group {
+		display: none;
+	}
+	#audio-port,
+	#taptrack-port,
+	#maya-port,
+	#photo-port,
+	#bartermates-port,
+	#video-port {
+		margin-top: 1.25rem;
+	}
+	.block {
+		padding: 1.5rem;
+	}
+	.original-pic-div {
+		margin-bottom: 1rem;
+	}
+	.about,
+	.composition,
+	.tech-details {
+		margin-top: 1.25rem;
+	}
 	.edit-pic-div {
 		margin-top: 1.25rem;
 		margin-bottom: 1.25rem;
 	}
-
 }
