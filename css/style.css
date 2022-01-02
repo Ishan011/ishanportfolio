@@ -248,9 +248,12 @@ header {
 	color: hsla(0, 0%, 100%, 0.42);
 }
 
-.linkedin-icon, 
-.gmail-icon {
+.linkedin-icon {
 	margin-bottom: 20px;
+}
+
+.gmail-icon {
+	margin-bottom: 16px;
 }
 
 @media screen and (max-width: 480px) {
