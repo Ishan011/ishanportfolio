@@ -158,6 +158,13 @@
       </section>
       <!-- footer CTAs -->
       <footer id="footer">
+           
+         <button type="button" id="btn-back-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" class="btn-floating" width="40" height="40" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+            </svg>
+         </button>
+
          <div class="container text-center">
             <p class="foot-subhead">Come say hi!</p>
             <p class="foot-head">Let's talk</p>
@@ -174,6 +181,33 @@
             </div>
          </div>
       </footer>
+      <script>
+         //Get the button
+         let mybutton = document.getElementById("btn-back-to-top");
+
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function () {
+           scrollFunction();
+         };
+
+         function scrollFunction() {
+           if (
+             document.body.scrollTop > 100 ||
+             document.documentElement.scrollTop > 100
+           ) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         // When the user clicks on the button, scroll to the top of the document
+         mybutton.addEventListener("click", backToTop);
+
+         function backToTop() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>   
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
    </body>
 </html>
