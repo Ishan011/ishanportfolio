@@ -1,6 +1,6 @@
 body {
 	font-family: 'Raleway', sans-serif;
-	background-color: #F3F7F8;
+	background-color: #ecfdef;
 }
 
 .navbar-collapse {
@@ -13,7 +13,7 @@ body {
 	right: 0;
 	left: 0;
 	z-index: 10;
-	background-color: #F3F7F8;
+	background-color: #ecfdef;
 }
 
 .folio-link {
@@ -35,14 +35,14 @@ body {
 }
 
 .folio-link:hover::after {
-	width: 82%;
+  width: 82%;
   height: 2px;
   background-color: #000;
 }
 
 .navbar-border {
 	border-bottom: 1px solid #eee;
-	background-color: #fff;
+	background-color: #ecfdef;
 }
 
 .nav-item {
@@ -50,14 +50,14 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: #5E94A1;
+	color: #555;
 	font-weight: 500;
 	font-size: 18px;
 }
 
 .btn-cta {
 	font-size: 18px;
-	background-color: #4B7681;
+	background-color: #4B8220;
 	color: #fff;
 	border-radius: 5px;
 	padding-left: 1rem;
@@ -67,7 +67,8 @@ body {
 }
 
 .btn-cta:hover {
-	background-color: #3E616A;
+	background-color: #376612;
+	cursor: pointer;
 	color: #fff;
 }
 
@@ -77,11 +78,7 @@ body {
 
 header {
 	padding: 4.5rem 0 0 0;
-	background-image: linear-gradient(180deg, hsla(191, 28%, 96%, 0.7), hsla(191, 28%, 96%, 0.7)), url("../assets/asset1.png");
-	background-position: 0 0, 50% 0;
-	background-size: auto, 100px;
-	background-repeat: repeat, repeat;
-	background-attachment: scroll, scroll;
+	background-color:#ecfdef;
 }
 
 .main-text {
@@ -89,7 +86,7 @@ header {
 }
 
 .name-intro {
-	color: #4B7681;
+	color: #333;
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 600;
@@ -99,7 +96,7 @@ header {
 
 .role-intro {
 	font-size: 40px;
-	color: #4B7681;
+	color: #555;
 	font-weight: 600;
 	letter-spacing: 2.4px;
 	margin: 0 0 20px 0;
@@ -108,7 +105,7 @@ header {
 .text-intro {
 	font-weight: 500;
 	font-size: 20px;
-	color: #71A1AC;
+	color: #888;
 }
 
 .btn-contact,
@@ -122,28 +119,28 @@ header {
 }
 
 .btn-contact {
-	background-color: #4B7681;
+	background-color: #4B8220;
 	color: #fff;
-	border: 2px solid #4B7681;
+	border: 2px solid #4B8220;
 	margin-right: 20px;
 	text-decoration: none;
 }
 
 .btn-resume {
 	background-color: #fff;
-	border: 3px solid #71A1AC;
-	color: #4B7681;
+	border: 3px solid #4B8220;
+	color: #4B8220;
 	text-decoration: none;
 }
 
 .btn-contact:hover {
-	background-color: #3E616A;
+	background-color: #376612;
 	color: #ffff;
 }
 
 .btn-resume:hover {
-	border: 3px solid #3E616A;
-	color: #3E616A;
+	border: 3px solid #376612;
+	color: #376612;
 	transition: 0.3s ease;
 }
 
@@ -162,7 +159,7 @@ header {
 }
 
 .sub-head {
-	color: rgba(0, 0, 0, 0.42);
+	color: #4B8220;
 	font-weight: 600;
 	font-size: 24px;
 }
@@ -230,42 +227,43 @@ header {
 }
 
 #footer {
-	background-color: #444;
+	background-color: #fff;
+	filter: drop-shadow(0px -4px 6px rgba(0, 0, 0, 0.05));
 	padding: 2.5rem 0;
 	font-weight: 600;
 }
 
 .foot-subhead {
 	font-size: 24px;
-	color: hsla(0, 0%, 100%, 0.42);
+	color: rgba(75, 130, 32, 1);
 }
 
 .foot-head {
 	font-size: 40px;
-	color: hsla(0, 0%, 100%, 0.72);
+	color: rgba(0, 0, 0, 0.72);
 	letter-spacing: 2.4px;
 	margin-bottom: 2.5rem;
 }
 
 .foot-btn {
-	background-color: #555;
+	background-color: rgba(75, 130, 32, 1);
 	width: 240px;
 	font-size: 24px;
 	height: 160px;
 	padding: 28px;
 	font-weight: 500;
 	border-radius: 5px;
-	border: 1px solid #555;
+	border: 1px solid #rgba(75, 130, 32, 1);
 	margin: 0 20px;
 	transition: 0.3s ease-in;
-	color: hsla(0, 0%, 100%, 0.42);
+	color: #ddd;
 	text-decoration: none;
 }
 
 .foot-btn:hover {
-	border: 2px solid #555;
-	background-color: #444;
-	color: hsla(0, 0%, 100%, 0.42);
+	border: 1px solid #376612;
+	background-color: #376612;
+	color: #ddd;
 }
 
 .linkedin-icon {
