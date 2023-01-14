@@ -92,44 +92,52 @@ body {
 	font-weight: 500;
 }
 
-#footer {
-	background-color: #444;
+footer {
+	background-color: #fff;
+	filter: drop-shadow(0px -4px 6px rgba(0, 0, 0, 0.05));
 	padding: 2.5rem 0;
 	font-weight: 600;
 }
 
 .foot-subhead {
 	font-size: 24px;
-	color: hsla(0, 0%, 100%, 0.42);
+	color: rgba(75, 130, 32, 1);
 }
 
 .foot-head {
 	font-size: 40px;
-	color: hsla(0, 0%, 100%, 0.72);
+	color: rgba(0, 0, 0, 0.72);
 	letter-spacing: 2.4px;
 	margin-bottom: 2.5rem;
 }
 
-
 .foot-btn {
-	background-color: #555;
+	background-color: rgba(75, 130, 32, 1);
 	width: 240px;
 	font-size: 24px;
 	height: 160px;
 	padding: 28px;
 	font-weight: 500;
 	border-radius: 5px;
-	border: 1px solid #555;
+	border: 1px solid #rgba(75, 130, 32, 1);
 	margin: 0 20px;
 	transition: 0.3s ease-in;
-	color: hsla(0, 0%, 100%, 0.42);
+	color: #ddd;
 	text-decoration: none;
 }
 
 .foot-btn:hover {
-	border: 2px solid #555;
-	background-color: #444;
-	color: hsla(0, 0%, 100%, 0.42);
+	border: 1px solid #376612;
+	background-color: #376612;
+	color: #ddd;
+}
+
+.linkedin-icon {
+	margin-bottom: 20px;
+}
+
+.gmail-icon {
+	margin-bottom: 16px;
 }
 
 .linkedin-icon {
