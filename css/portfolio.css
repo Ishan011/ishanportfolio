@@ -1,6 +1,5 @@
 body {
 	font-family: 'Raleway', sans-serif;
-	background-color: #F3F7F8;
 }
 
 .navbar-collapse {
@@ -41,7 +40,6 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: #5E94A1;
 	font-weight: 500;
 	font-size: 18px;
 }
@@ -49,7 +47,7 @@ body {
 .btn-cta,
 .back-btn {
 	font-size: 18px;
-	background-color: #4B7681;
+	background-color: #4B8220;
 	color: #fff;
 	border-radius: 5px;
 	font-weight: 500;
@@ -234,6 +232,112 @@ video {
 	width: 40px;
 	color: #fff;
 	border-radius: 50%;
+}
+
+#dream-header {
+	background-color: #E4FBEF;
+}
+
+.dream-title {
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: 700;
+}
+.dream-caption {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: 0.01em;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.dream-bg {
+	background-image: url("../assets/mockup1.png");
+	background-size: cover;
+	background-position: center;
+	height: 470px;
+}
+
+#main-content {
+	padding: 40px 200px;
+}
+
+.dream-text, .dream-intro {
+	line-height: 28px;
+	letter-spacing: 0.03em;
+}
+
+.dream-intro {
+	color: rgba(0, 0, 0, 0.6);
+	font-weight: 500;
+}
+
+.dream-subhead, .design-process
+{
+font-weight: 700;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: rgba(0, 0, 0, 0.72);
+}
+
+.dream-subhead {
+	font-size: 20px;
+}
+
+.design-process {
+	font-size: 28px;
+}
+p>span {
+	font-weight: 600;
+}
+
+.methodology {
+	padding: 12px 20px 0px 20px;
+	margin: 12px 0;
+	border: 1px solid #B6D4B1;
+}
+
+.method-head {
+	font-weight: 600;
+}
+
+.dream-h3, .img-caption {
+	font-weight: 500;
+}
+
+.dream-h3 {
+	letter-spacing: 0.1em;
+}
+
+.img-caption {
+	margin-top: 8px;
+}
+
+.comment {
+	display: flex;
+	align-items: center;
+}
+
+.comment img {
+	margin-right: 0.5rem;
+}
+
+.btn-website {
+	padding: 8px 16px 8px 8px;
+	background-color: #0A4124;
+	color: #fff;	
+}
+
+.btn-website:hover, .btn-insta:hover {
+	color: #fff;
+}
+
+.btn-insta {
+	margin-left: 16px;
+	padding: 16px 12px;
+	background-color: #333;
+	color: #eee;
 }
 
 @media screen and (max-width: 480px) {
