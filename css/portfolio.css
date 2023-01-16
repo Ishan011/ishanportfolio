@@ -351,11 +351,18 @@ p>span {
 .de-brief {
 	margin-top: 4rem;
 }
-
+.text-end-challenge {
+	text-align: right;
+}
 @media screen and (max-width: 550px) {
 	#main-content {
 		padding: 40px;
 	}
+	
+	.text-end-challenge {
+		text-align: left;
+	}
+
 	.design-process {
 		text-align: left;
 	}
@@ -368,7 +375,7 @@ p>span {
 	.value-propositions {
 		margin-bottom: 24px;
 	}
-	.de-brief {
+	.de-brief, .survey {
 		margin-top: 1.5rem;
 	}
 	.proto, .development {
