@@ -295,6 +295,7 @@ color: rgba(0, 0, 0, 0.72);
 
 .design-process {
 	font-size: 28px;
+	text-align: center;
 }
 p>span {
 	font-weight: 600;
@@ -347,8 +348,37 @@ p>span {
 	background-color: #333;
 	color: #eee;
 }
+.de-brief {
+	margin-top: 4rem;
+}
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
+	#main-content {
+		padding: 40px;
+	}
+	.design-process {
+		text-align: left;
+	}
+	.mobile-mode {
+		display: none;
+	}
+	.concept {
+		margin-bottom: 32px;
+	}
+	.value-propositions {
+		margin-bottom: 24px;
+	}
+	.de-brief {
+		margin-top: 1.5rem;
+	}
+	.proto, .development {
+		margin-top: 1.5rem;
+	}
+	.btn-website, .btn-insta {
+		display: block;
+		margin-bottom: 12px;
+		margin-left: 0;
+	}
 	.card {
 		margin: 1.25rem 0;
 	}
@@ -387,4 +417,10 @@ p>span {
 	.nav-item {
 		padding-left: 0.5rem;
 	}
+}
+
+@media screen and (min-width: 600px) and (max-width:1025px) {
+ #main-content {
+	padding: 40px 80px;
+ }
 }
