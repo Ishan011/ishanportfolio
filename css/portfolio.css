@@ -503,10 +503,24 @@ p>span {
 	.nav-item {
 		padding-left: 0.5rem;
 	}
+	.requirement, .lean-ux, .ideation, .testimonial {
+		width: 100%;
+	}
+	.research-head {
+		border: none;
+		margin-bottom: 8px;
+		font-weight: 600;
+	}
+	.quick-win2 {
+		margin-top: 2rem;
+	}
+	.research-subhead {
+		margin-bottom: 0.5rem;
+	}
 }
 
 @media screen and (min-width: 600px) and (max-width:1025px) {
- #main-content {
+ #main-content, .main-container {
 	padding: 40px 80px;
  }
 }
