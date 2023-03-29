@@ -241,23 +241,52 @@ video {
 	color: #fff;
 	border-radius: 50%;
 }
+#tap-header {
+	background-color: #FFFAE0;
+}
 
 #dream-header {
 	background-color: #E4FBEF;
 }
 
-.dream-title {
+.dream-title, .tap-title {
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	font-weight: 700;
 }
-.dream-caption {
+.dream-caption, .tap-caption {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 23px;
 	letter-spacing: 0.01em;
 	color: rgba(0, 0, 0, 0.6);
+}
+
+.tap-icon {
+	display: flex;
+	align-items: center;
+}
+
+.tap-icon img {
+	margin-right: 1.5rem;
+}
+.tap-overview {
+	font-weight: 600;
+}
+
+.research-box {
+	background-color: rgba(255, 255, 255, 0.87);
+	border: 1px solid rgba(255, 177, 54, 0.72);
+	border-radius: 4px;
+	padding: 20px 12px;
+	margin-bottom: 1rem;
+}
+
+.research-div {
+	background: #FFF3E0;
+	border: 1px solid rgba(255, 177, 54, 0.72);
+	padding: 12px;
 }
 
 .dream-bg {
@@ -267,7 +296,17 @@ video {
 	height: 470px;
 }
 
+.tap-bg {
+	background-image: url("../assets/taptrack.svg");
+	background-size: cover;
+	height: 650px;
+	background-position: center;
+}
+
 #main-content {
+	padding: 40px 200px;
+}
+.main-container {
 	padding: 40px 200px;
 }
 
@@ -279,6 +318,18 @@ video {
 .dream-intro {
 	color: rgba(0, 0, 0, 0.6);
 	font-weight: 500;
+}
+
+#hi-fidelity {
+	margin-top: 2.5rem;
+	padding: 1.5rem 0 3rem 0;
+	background: #EFFAE5;
+}
+
+#redesign {
+	margin-top: 2.5rem;
+	padding: 2.5rem 0 3rem 0;
+	background: #FFF1E0;
 }
 
 .dream-subhead, .design-process
@@ -307,8 +358,18 @@ p>span {
 	border: 1px solid #B6D4B1;
 }
 
-.method-head {
+.research-head {
+	border: 1px solid hsla(37, 100%, 59%, 1);
+	font-size: 18px;
+}
+
+.research-subhead {
+	margin-bottom: 1.5rem;
 	font-weight: 600;
+}
+
+.method-head, .research-head {
+	font-weight: 500;
 }
 
 .dream-h3, .img-caption {
@@ -354,8 +415,26 @@ p>span {
 .text-end-challenge {
 	text-align: right;
 }
+
+.handoff {
+	width: 100%;
+	display: inline;
+}
+.tick {
+	width: 8%;
+}
+.handoff-text {
+	width: 90%;
+}
+.tap-card {
+	border: 1px solid hsla(37, 100%, 61%, 0.42);
+	box-shadow: 0px 30px 40px 0px hsla(225, 30%, 87%, 0.2);
+	padding: 40px;
+
+}
+
 @media screen and (max-width: 550px) {
-	#main-content {
+	#main-content, .main-container {
 		padding: 40px;
 	}
 	
